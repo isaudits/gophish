@@ -13,7 +13,7 @@ on:
   pull_request:
     branches: [ master ]
   schedule:
-    - cron: "32 8 * * 0"  # every Sunday at 8:32 UTC (3:32 AM EST)
+    - cron: "42 8 * * 0"  # every Sunday at 8:42 UTC (3:42 AM EST)
   workflow_dispatch:
 
 permissions:
